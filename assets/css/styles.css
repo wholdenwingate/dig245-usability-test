@@ -1,2 +1,33 @@
 
 /* css */
+.container {
+    font-family: PT Sans;
+}
+#topbar {
+    background-color: rgba(0, 0, 0, 0.80);
+    border-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-size: 64px;
+}
+#linkbar {
+    font-size: 30px;
+}
+input { 
+    display: block; 
+  }
+.btn {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-active-color: var(--bs-white);
+    --bs-btn-hover-color: var(--bs-white);
+    /* bg */
+    --bs-btn-bg: var(--bs-black);
+    --bs-btn-hover-bg: var(--bs-black);
+    --bs-btn-active-bg: var(--black);
+    /*border */
+    --bs-btn-border-color: var(--black);
+    --bs-btn-hover-border-color: var(--black);
+    --bs-btn-active-border-color: var(--black);
+    /* shadow */
+    --bs-btn-focus-shadow-rgb: var(--black);
+}
